@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: radial-gradient(at center top, #4763F2, #C81AC1);
+}
+
+@font-face {
+    font-family: letra1;
+    src: url(../letra1.ttf);
+}
+
+@font-face {
+    font-family: letra2;
+    src: url(../letra2.ttf);
+}
+
+.tituloIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono img{
+    width: 65px;
+    height: 65px;
+}
+
+.tituloIni{
+    color: white;
+    font-size: 16px;
+    font-family: letra1;
+}
+
+.evento{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: solid 3px #7c7eff;
+    margin-bottom: 27px;
+    align-items: center;
+    font-family: cursive;
+}
+
+.formulario{
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    background: #b4ff9a;
+    padding-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+    border: double 8px #007b00;
+    box-shadow: 6px 9px 20px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 6px 9px 20px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 6px 9px 20px 0px rgba(255,255,255,0.75);
+}
+
+
+input{
+    margin-bottom: 15px;
+    width: 320px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px #ff7cbc;
+    padding: 5px;
+    font-family: cursive;
+}
+
+#agregar {
+    width: 320px;
+    height: 40px;
+    border-radius: 18px;
+    background: #ffc0dd;
+    color:black;
+    font-family: letra2;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.listaEventos2{
+    width: 750px;
+    height: auto;
+    background: #ffff9a;
+    border: double 12px #cd966c;
+    border-radius: 15px;
+    padding: 27px 25px 0px 27px;
+    margin-bottom: 50px;
+    box-shadow: -1px 1px 11px 8px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 1px 11px 8px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 1px 11px 8px rgba(255,255,255,0.75);
+}
+
+button{
+    width: 85px;
+    height: 50px;
+    background: #02f002;
+    font-size: 15px;
+    border-radius: 8px;
+    color: black;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ff0000;
+    color: white;
+}
+
+
+.dias{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.diasFaltantes{
+    color: #ff892e;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.texto{
+    font-size: 17px;
+}
+
+.nombreEvento{
+    font-size: 20px;
+    width: 132px;
+    overflow-x: auto;
+}
+
+.fechaEvento{
+    font-size: 16px;
+}
+
+a{
+    color: #25fffb;
+    text-decoration: none;
+}
+
+.globo{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 80px;
+    height: 180px;
+}
